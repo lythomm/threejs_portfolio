@@ -308,7 +308,7 @@ export const workExperiences = [
     id: 1,
     name: "BedBoat",
     pos: "Fullstack Developper",
-    duration: "nov. 2024 - Present",
+    duration: "nov. 2023 - Present",
     title:
       "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
     icon: "/assets/bedboat.png",
