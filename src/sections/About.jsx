@@ -29,7 +29,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I’m Thomas</p>
               <p className="grid-subtext">
-                With 12 years of experience, I have honed my skills in both
+                With 3 years of experience, I have honed my skills in both
                 frontend and backend dev, creating dynamic and responsive
                 websites.
               </p>
@@ -57,7 +57,7 @@ const About = () => {
 
         <div className="col-span-1 xl:row-span-4">
           <div className="grid-container">
-            <div className="rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center">
+            <div className="rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center cursor-grab">
               <Globe
                 height={326}
                 width={326}
@@ -104,6 +104,7 @@ const About = () => {
                 I love solving problems and building things through code.
                 Programming isn&apos;t just my profession—it&apos;s my passion.
                 I enjoy exploring new technologies, and enhancing my skills.
+                This portfolio is an example, I used it to teach myself ThreeJS.
               </p>
             </div>
           </div>

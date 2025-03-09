@@ -16,6 +16,11 @@ export const navLinks = [
   },
   {
     id: 4,
+    name: "Projects",
+    href: "#projects",
+  },
+  {
+    id: 5,
     name: "Contact",
     href: "#contact",
   },
@@ -248,7 +253,7 @@ export const myProjects = [
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
   return {
-    deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.065,
+    deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.06,
     deskPosition: isMobile ? [0.5, -4.5, 0] : [0.25, -5.5, 0],
     cubePosition: isSmall
       ? [4, -5, 0]
@@ -281,35 +286,62 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
   };
 };
 
+export function scrollToLink(to) {
+  const element = document.getElementById(to.toLowerCase());
+
+  if (!element) {
+    console.warn(`Element ${to} wasn't found.`);
+    return;
+  }
+
+  // Absolute scroll position of the element from the top of the page
+  const elementPosition = element.offsetTop;
+
+  window.scrollTo({
+    top: elementPosition - 80,
+    behavior: "smooth",
+  });
+}
+
 export const workExperiences = [
   {
     id: 1,
-    name: "Framer",
-    pos: "Lead Web Developer",
-    duration: "2022 - Present",
+    name: "BedBoat",
+    pos: "Fullstack Developper",
+    duration: "nov. 2024 - Present",
     title:
       "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: "/assets/framer.svg",
+    icon: "/assets/bedboat.png",
     animation: "victory",
   },
   {
     id: 2,
-    name: "Figma",
-    pos: "Web Developer",
-    duration: "2020 - 2022",
+    name: "BedBoat",
+    pos: "Intership - Frontend developper",
+    duration: "nov. 2022 - oct. 2023",
     title:
-      "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: "/assets/figma.svg",
-    animation: "clapping",
+      "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
+    icon: "/assets/bedboat.png",
+    animation: "victory",
   },
   {
     id: 3,
-    name: "Notion",
-    pos: "Junior Web Developer",
-    duration: "2019 - 2020",
+    name: "iologo",
+    pos: "Intership - Frontend developper",
+    duration: "nov. 2021 - oct. 2022",
+    title:
+      "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
+    icon: "/assets/iologo.png",
+    animation: "clapping",
+  },
+  {
+    id: 4,
+    name: "Lexidia",
+    pos: "Intership - Frontend developper",
+    duration: "nov. 2020 - oct. 2021",
     title:
       "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: "/assets/notion.svg",
+    icon: "/assets/lexidia.png",
     animation: "salute",
   },
 ];

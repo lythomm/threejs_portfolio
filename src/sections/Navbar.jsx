@@ -1,12 +1,19 @@
 import React, { useState } from "react";
-import { navLinks } from "../constants/index";
+import { navLinks, scrollToLink } from "../constants/index";
 
 const NavItems = () => {
   return (
     <ul className="nav-ul">
       {navLinks.map((link) => (
         <li key={link.id} className="nav-li">
-          <a href={link.href} className="nav-li_a" onClick={() => {}}>
+          <a
+            href={link.href}
+            className="nav-li_a"
+            onClick={(e) => {
+              e.preventDefault();
+              scrollToLink(link.name);
+            }}
+          >
             {link.name}
           </a>
         </li>
