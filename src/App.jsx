@@ -9,7 +9,7 @@ import Footer from "./sections/Footer";
 
 const App = () => {
   return (
-    <main className="max-w-7xl mx-auto">
+    <main className="max-w-7xl mx-auto" data-scroll-container>
       <Navbar />
       <Hero />
       <About />
