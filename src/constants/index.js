@@ -63,13 +63,13 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: "Podcastr - AI Podcast Platform",
+    title: "Netflix Clone",
     desc: "Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.",
     subdesc:
       "Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.",
-    href: "https://www.youtube.com/watch?v=zfAb95tJvZQ",
+    href: "https://ly-thomas-netflix-clone.vercel.app/",
     texture: "/textures/project/project1.mp4",
-    logo: "/assets/project-logo1.png",
+    logo: "/assets/projects/netflix.svg",
     logoStyle: {
       backgroundColor: "#2A1816",
       border: "0.2px solid #36201D",
@@ -78,24 +78,20 @@ export const myProjects = [
     spotlight: "/assets/spotlight1.png",
     tags: [
       {
-        id: 1,
         name: "React.js",
-        path: "/assets/react.svg",
+        path: "/assets/logos/react.svg",
       },
       {
-        id: 2,
         name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
+        path: "/assets/logos/tailwindcss.png",
       },
       {
-        id: 3,
         name: "TypeScript",
-        path: "/assets/typescript.png",
+        path: "/assets/logos/js.svg",
       },
       {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "Firebase",
+        path: "/assets/logos/firebase.svg",
       },
     ],
   },
@@ -115,24 +111,20 @@ export const myProjects = [
     spotlight: "/assets/spotlight2.png",
     tags: [
       {
-        id: 1,
         name: "React.js",
-        path: "/assets/react.svg",
+        path: "/assets/logos/react.svg",
       },
       {
-        id: 2,
         name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
+        path: "/assets/logos/tailwindcss.png",
       },
       {
-        id: 3,
         name: "TypeScript",
-        path: "/assets/typescript.png",
+        path: "/assets/logos/typescript.png",
       },
       {
-        id: 4,
         name: "Framer Motion",
-        path: "/assets/framer.png",
+        path: "/assets/logos/framer.png",
       },
     ],
   },
@@ -154,24 +146,20 @@ export const myProjects = [
     spotlight: "/assets/spotlight3.png",
     tags: [
       {
-        id: 1,
         name: "React.js",
-        path: "/assets/react.svg",
+        path: "/assets/logos/react.svg",
       },
       {
-        id: 2,
         name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
+        path: "/assets/logos/tailwindcss.png",
       },
       {
-        id: 3,
         name: "TypeScript",
-        path: "/assets/typescript.png",
+        path: "/assets/logos/typescript.png",
       },
       {
-        id: 4,
         name: "Framer Motion",
-        path: "/assets/framer.png",
+        path: "/assets/logos/framer.png",
       },
     ],
   },
@@ -191,24 +179,20 @@ export const myProjects = [
     spotlight: "/assets/spotlight4.png",
     tags: [
       {
-        id: 1,
         name: "React.js",
-        path: "/assets/react.svg",
+        path: "/assets/logos/react.svg",
       },
       {
-        id: 2,
         name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
+        path: "/assets/logos/tailwindcss.png",
       },
       {
-        id: 3,
         name: "TypeScript",
-        path: "/assets/typescript.png",
+        path: "/assets/logos/typescript.png",
       },
       {
-        id: 4,
         name: "Framer Motion",
-        path: "/assets/framer.png",
+        path: "/assets/logos/framer.png",
       },
     ],
   },
@@ -228,24 +212,20 @@ export const myProjects = [
     spotlight: "/assets/spotlight5.png",
     tags: [
       {
-        id: 1,
         name: "React.js",
-        path: "/assets/react.svg",
+        path: "/assets/logos/react.svg",
       },
       {
-        id: 2,
         name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
+        path: "/assets/logos/tailwindcss.png",
       },
       {
-        id: 3,
         name: "TypeScript",
-        path: "/assets/typescript.png",
+        path: "/assets/logos/typescript.png",
       },
       {
-        id: 4,
         name: "Framer Motion",
-        path: "/assets/framer.png",
+        path: "/assets/logos/framer.png",
       },
     ],
   },
@@ -311,7 +291,7 @@ export const workExperiences = [
     duration: "nov. 2023 - Present",
     title:
       "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: "/assets/bedboat.png",
+    icon: "/assets/logos/bedboat.png",
     animation: "victory",
   },
   {
@@ -321,7 +301,7 @@ export const workExperiences = [
     duration: "nov. 2022 - oct. 2023",
     title:
       "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: "/assets/bedboat.png",
+    icon: "/assets/logos/bedboat.png",
     animation: "victory",
   },
   {
@@ -331,7 +311,7 @@ export const workExperiences = [
     duration: "nov. 2021 - oct. 2022",
     title:
       "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: "/assets/iologo.png",
+    icon: "/assets/logos/iologo.png",
     animation: "clapping",
   },
   {
@@ -341,7 +321,7 @@ export const workExperiences = [
     duration: "nov. 2020 - oct. 2021",
     title:
       "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: "/assets/lexidia.png",
+    icon: "/assets/logos/lexidia.png",
     animation: "salute",
   },
 ];

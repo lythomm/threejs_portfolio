@@ -33,7 +33,7 @@ const WorkExperience = () => {
           </div>
 
           <div className="work-content">
-            <div className="sm:py-10 py-5 sm:px-5 px-2.5">
+            <div className="py-5 sm:px-5 px-2.5">
               {workExperiences.map((item, index) => (
                 <div
                   key={index}
